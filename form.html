@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Data Diri</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #C7B7A3;
+      font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .form-inner {
+      background-color: transparent;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .form-title {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #4f5b68; 
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .form-control {
+      border-radius: 10px;
+    }
+
+    .btn-submit {
+      background-color: #a7a7a7;
+      border: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-submit:hover {
+      background-color: #C7B7A3;
+      transform: scale(1.05);
+    }
+
+    .invalid-feedback {
+      color: red;
+      display: none;
+    }
+
+    .form-control:invalid {
+      border-color: red;
+    }
+
+    .form-control:invalid + .invalid-feedback {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <div class="form-container">
+      <div class="form-inner">
+        <h2 class="form-title mb-4">Form Data Diri</h2>
+        <form action="selamat.html">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+            <div class="invalid-feedback">
+              Nama lengkap harus diisi.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="alamat">Alamat:</label>
+            <textarea class="form-control" id="alamat" name="alamat" rows="3" placeholder="Masukkan alamat lengkap" required></textarea>
+            <div class="invalid-feedback">
+              Alamat harus diisi.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="tel" class="form-control" id="telepon" name="telepon" placeholder="Masukkan nomor telepon" required>
+            <div class="invalid-feedback">
+              Nomor telepon harus diisi.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan alamat email" required>
+            <div class="invalid-feedback">
+              Alamat email harus diisi dengan format yang benar.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="tanggal_lahir">Tanggal Lahir:</label>
+            <input type="date" class="form-control" id="tanggal_lahir" name="tanggal_lahir" required>
+            <div class="invalid-feedback">
+              Tanggal lahir harus diisi.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Masukkan username" required>
+            <div class="invalid-feedback">
+              Username harus diisi.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan password" required>
+            <div class="invalid-feedback">
+              Password harus diisi.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-submit btn-block">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

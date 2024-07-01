@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.background-image {
+    background-image: url('skincare.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.company-name {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.company-name h1 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+}
+
+.login-container h2 {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666666;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-container input[type="text"]:focus,
+.input-container input[type="password"]:focus {
+    border-color: #4CAF50;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #C7B7A3;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #C7B7A3;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #f0f0f0;
+    border-color: #aaaaaa;
+    color: #555555;
+}
+
+.social-link img {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 20px; 
+    height: 20px;
+}

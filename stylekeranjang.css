@@ -1,0 +1,300 @@
+body {
+    font-family: garamond;
+    background-color: #9870704f;
+    display: flex;
+}
+
+nav {
+    padding: 20px;
+    padding-bottom: 15px;
+    align-items: 100%;
+    text-align-last: 100px ;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px rgba(207, 175, 175, 0.329);
+    display: flex;
+    z-index: 100;
+}
+
+nav a {
+    padding-right: 10px;
+}
+
+nav img {
+    width: 30px;
+    height: 10px;
+}
+.my-1{
+    color: #987070;
+}
+
+.container {
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fdfcfc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 43px;
+    font-weight: bold;
+    color:#383636 ;
+}
+
+.detail-informasi {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.detail-informasi h2 {
+    color: #987070;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.info-pelanggan {
+    margin-top: 20px;
+}
+
+.info-pelanggan h3 {
+    color: #6e6c6c;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.info-pelanggan p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    align-items: start;
+}
+
+.form-label {
+    font-weight: bold; 
+    margin-bottom: 0.5rem; 
+}
+
+.form-control {
+    height: auto; 
+    padding: 0.75rem; 
+    border: 1px solid #ced4da; 
+    border-radius: 0.25rem; 
+    resize: vertical; 
+}
+
+.btn-primary {
+    color: #9e6767;
+}
+
+.btn-lg {
+    background-color: #987070;
+    color: #f2f2f2;
+}
+
+.btn-lg:hover
+{
+  background-color: #9870704f; 
+  color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+.pilihan-produk {
+    margin-bottom: 20px;
+}
+
+.pilihan-produk .produk {
+   
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.pilihan-produk .info {
+    flex: 1;
+}
+
+.qty-section {
+    display: flex;
+    align-items: center;
+    padding-right: 20px ;
+}
+
+.qty-input {
+    width: 70px;
+    margin-left: 10px;
+}
+
+
+.produk {
+    display: block;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.produk img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.produk .info {
+    margin-left: 15px;
+}
+
+.produk h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.produk p {
+    margin-bottom: 0;
+}
+
+
+.form-control{
+    align-items: right;
+    width: 75px;
+}
+
+.detail-informasi {
+    margin-bottom: 20px;
+}
+
+.info-pelanggan {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.keranjang-pelanja {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.pesan {
+    padding-bottom: 20px;
+}
+
+.subtotal {
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    text-align:center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin-right: 15px;
+}
+
+.payment-details {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #9e6767 ;
+}
+
+.product-details {
+    margin-bottom: 20px;
+}
+
+.product-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.product a{
+    font-weight: bold;
+    font-size: 17px;
+    color: #424040;
+}
+
+.label {
+    flex: 1;
+    color: #424040;
+}
+
+.value {
+    flex: 2;
+    text-align: right;
+}
+
+.totals {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.total-row .label {
+    flex: 1;
+    font-weight: bold;
+}
+
+strong {
+    font-size: 19px;
+    color: #8d5c5c;
+}
+
+.total-row .value {
+    flex: 2;
+    text-align: right;
+    font-weight: bold;
+}
+
